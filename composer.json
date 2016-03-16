@@ -47,7 +47,7 @@
             "vendor/drupal/themes/{$name}": ["type:drupal-theme"],
             "vendor/drush/{$name}": ["type:drupal-drush"]
         },
-        "branch-alias": {"dev-8.x-0.x": "8.0.x-dev}
+        "branch-alias": {"dev-8.x-0.x": "8.0.x-dev"}
     },
     "non-feature-branches": ["archived-*", "abandoned-*"]
 }
