@@ -1,0 +1,8 @@
+# Do not include the composer.lock file, this not the root package.
+/composer.lock
+
+# Do not include the composer vendor dir, this is not the root package.
+/vendor/
+
+# Do not include PhpStorm files.
+/.idea/

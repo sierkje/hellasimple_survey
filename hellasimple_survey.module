@@ -1,0 +1,26 @@
+<?php
+
+/**
+ * @file
+ * Contains hook implementations for the HellaSimple Survey module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ *
+ * @todo Add help.
+ */
+function hellasimple_survey_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the hellasimple_survey module.
+    case 'help.page.hellasimple_survey':
+      $output = '';
+      $output .= '<h3>' . t('About HellaSimple Survey') . '</h3>';
+      $output .= '<p>' . t('Needs documentation. File an issue on ') . '<a href="https://github.com/cococollective/hellasimple_survey/issues/">Github</a>.</p>';
+      return $output;
+
+    default:
+  }
+}
