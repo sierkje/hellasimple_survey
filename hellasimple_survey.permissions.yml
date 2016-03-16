@@ -1,0 +1,6 @@
+---
+administer hellasimple_survey:
+  title: 'Administer HellaSimple Survey'
+  description: 'Administer all HellaSimple Survey configurations and settings.'
+  # Does not need a warning now, but: @todo Evaluate!
+  # restrict access: true
