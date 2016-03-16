@@ -1,0 +1,10 @@
+---
+
+### Main settings form
+hellasimple_survey.settings:
+  path: '/admin/config/content/hellasimple-survey/settings'
+  defaults:
+    _controller: '\Drupal\hellasimple_survey\Controller\SurveyController::settingsForm'
+    _title: 'HellaSimple Survey settings'
+  requirements:
+    _permission: 'administer hellasimple_survey'
